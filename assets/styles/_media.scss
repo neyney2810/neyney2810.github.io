@@ -1,102 +1,3 @@
-@media screen and (max-width: 1432px) {
-    header {
-        padding: 0 !important;
-    }
-
-    .section {
-        padding: 2rem 6rem;
-    }
-
-    .contact-content-con {
-        flex-direction: column;
-        .right-contact {
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-
-    .input-control-inline {
-        flex-direction: column;
-
-        & :last-child {
-            margin-left: 0 !important;
-            margin-top: 1.5rem;
-        }
-    }
-
-}
-
-@media screen and (max-width: 820px) {
-    header {
-        padding: 0;
-
-        .left-header {
-            .h-shape {
-                display: none;
-            }
-        }    
-
-        .right-header {
-            padding: 2rem !important;
-            grid-row: 1;
-            width: 90%;
-            margin: 0 auto;
-
-            .name {
-                font-size: 2.5rem !important;
-            }
-        }
-        
-        .header-container {
-            grid-template-columns: 1fr !important;
-            padding-bottom: 6rem;
-
-            .left-header .image {
-                margin: 0 auto;
-
-            }
-        }
-
-    }
-
-        
-    .portfolio .project-list {
-        grid-template-columns: repeat(2, 1fr) !important;
-        padding-bottom: 6rem;
-    }
-
-    .skills .skill .progress-skills {
-        grid-template-columns: 1fr !important;
-    }
-
-    .controls {
-        top: auto;
-        bottom: 0;
-        flex-direction: row;
-        justify-content: space-evenly;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        background-color: var(--color-grey-5);
-
-        .control {
-            margin: 1rem 0.3rem;
-        }
-    }
-
-    .main-title {
-        h2 {
-            font-size: 2rem;
-            span {
-                font-size: 2rem;
-            }
-            .bg-text {
-                font-size: 3rem;
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 600px) {
     .about-container {
         grid-template-columns: 1fr;
@@ -145,5 +46,109 @@
         height: 50px;
     }
 
+}
+
+@media screen and (max-width: 820px) {
+    header {
+        padding: 0;
+
+        .left-header {
+            .h-shape {
+                display: none;
+            }
+        }    
+
+        .right-header {
+            padding: 2rem !important;
+            grid-row: 1;
+            width: 90%;
+            margin: 0 auto;
+
+            .name {
+                font-size: 2.5rem !important;
+            }
+        }
+        
+        .header-container {
+            grid-template-columns: 1fr !important;
+            padding-bottom: 6rem;
+
+            .left-header .image {
+                margin: 0 auto;
+
+            }
+        }
+
+    }
+
+        
+    .portfolio .project-list {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .skills .skill .progress-skills {
+        grid-template-columns: 1fr !important;
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+
+        .control {
+            margin: 1rem 0.3rem;
+        }
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2rem;
+            }
+            .bg-text {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .input-control-inline {
+        flex-direction: column;
+
+        & :last-child {
+            margin-left: 0 !important;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .contact-content-con {
+        flex-direction: column;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1432px) {
+    header {
+        padding: 0 !important;
+    }
+
+    .section {
+        padding: 2rem 6rem;
+    }
+
+
+
 
 }
+
+
+
