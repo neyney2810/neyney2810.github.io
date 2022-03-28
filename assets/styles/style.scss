@@ -869,9 +869,6 @@ section {
     }
 }
 
-@import './media';
-
-
 .progress-con {
     display: flex;
     align-items: center;
@@ -905,3 +902,6 @@ section {
         }
     }                
 }
+
+@import './media';
+

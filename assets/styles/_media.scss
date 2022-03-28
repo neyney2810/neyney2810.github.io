@@ -1,54 +1,40 @@
-@media screen and (max-width: 600px) {
-    .about-container {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 1432px) {
+    header {
+        padding: 0 !important;
+    }
 
-        .right-about {
-            padding-top: 2.5rem;
-            grid-template-columns: 1fr;
-        }
+    .section {
+        padding: 2rem 6rem;
+    }
 
-        .left-about {
-            padding-right: 0;
-            p {
-                padding-left: 0;
-            }
-        }
-
-        .timeline {
-            grid-template-columns: 1fr;
-            padding-bottom: 6rem;
-        }
-
-        .about-stats {
-            .progress-bars {
-                grid-template-columns: 1fr;
-            }
+    .contact-content-con {
+        flex-direction: column;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 2.5rem;
         }
     }
 
+    .input-control-inline {
+        flex-direction: column;
+
+        & :last-child {
+            margin-left: 0 !important;
+            margin-top: 1.5rem;
+        }
+    }
+
+    
     .project-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr) !important;
         padding-bottom: 6rem;
     }
 
     .blog-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr) !important;
         padding-bottom: 6rem;
     }
-
-
-    .section {
-        padding: 2rem 2.5rem !important;
-    }
-
-    .theme-btn {
-        width: 50px;
-        height: 50px;
-    }
-
-
 }
-
 
 @media screen and (max-width: 820px) {
     header {
@@ -72,7 +58,7 @@
         }
         
         .header-container {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr !important;
             padding-bottom: 6rem;
 
             .left-header .image {
@@ -111,40 +97,53 @@
     }
 }
 
-@media screen and (max-width: 1432px) {
-    header {
-        padding: 0 !important;
-    }
+@media screen and (max-width: 600px) {
+    .about-container {
+        grid-template-columns: 1fr;
 
-    .section {
-        padding: 2rem 6rem;
-    }
-    .contact-content-con {
-        flex-direction: column;
-        .right-contact {
-            margin-left: 0;
-            margin-top: 2.5rem;
+        .right-about {
+            padding-top: 2.5rem;
+            grid-template-columns: 1fr !important;
+        }
+
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+
+        .timeline {
+            grid-template-columns: 1fr !important;
+            padding-bottom: 6rem;
+        }
+
+        .about-stats {
+            .progress-bars {
+                grid-template-columns: 1fr !important;
+            }
         }
     }
 
-    .input-control-inline {
-        flex-direction: column;
-
-        & :last-child {
-            margin-left: 0 !important;
-            margin-top: 1.5rem;
-        }
-    }
-
-    
     .project-list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
 
     .blog-list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
-}
 
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
