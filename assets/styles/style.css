@@ -1274,15 +1274,6 @@ section {
   header .header-container .left-header .image {
     margin: 0 auto;
   }
-  .portfolio .project-list {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 6rem;
-  }
-  .skills .skill .progress-skills {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-  }
   .controls {
     top: auto;
     bottom: 0;
@@ -1330,6 +1321,18 @@ section {
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .skills .skill .progress-skills {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .portfolio .project-list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 6rem;
   }
 }
 

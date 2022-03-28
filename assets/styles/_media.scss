@@ -81,16 +81,6 @@
 
     }
 
-        
-    .portfolio .project-list {
-        grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 6rem;
-    }
-
-    .skills .skill .progress-skills {
-        grid-template-columns: 1fr !important;
-    }
-
     .controls {
         top: auto;
         bottom: 0;
@@ -136,6 +126,18 @@
     }
 }
 
+@media screen and (max-width: 1260px) {
+    
+    .skills .skill .progress-skills {
+        grid-template-columns: 1fr !important;
+    }
+
+    .portfolio .project-list {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 6rem;
+    }
+}
+
 @media screen and (max-width: 1432px) {
     header {
         padding: 0 !important;
@@ -144,9 +146,6 @@
     .section {
         padding: 2rem 6rem;
     }
-
-
-
 
 }
 
