@@ -24,11 +24,7 @@
         }
     }
 
-    
-    .project-list {
-        grid-template-columns: repeat(2, 1fr) !important;
-        padding-bottom: 6rem;
-    }
+
 
     .blog-list {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -67,6 +63,12 @@
             }
         }
 
+    }
+
+        
+    .portfolio .project-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding-bottom: 6rem;
     }
 
     .controls {
@@ -125,7 +127,7 @@
         }
     }
 
-    .project-list {
+    .portfolio .project-list {
         grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
     }
