@@ -24,12 +24,6 @@
         }
     }
 
-
-
-    .blog-list {
-        grid-template-columns: repeat(2, 1fr) !important;
-        padding-bottom: 6rem;
-    }
 }
 
 @media screen and (max-width: 820px) {
@@ -69,6 +63,10 @@
     .portfolio .project-list {
         grid-template-columns: repeat(2, 1fr) !important;
         padding-bottom: 6rem;
+    }
+
+    .skills .skill .progress-skills {
+        grid-template-columns: 1fr !important;
     }
 
     .controls {
