@@ -7,7 +7,7 @@
         padding: 2rem 6rem;
     }
 
-    .contact-content-con {
+    .contact .contact-content-con {
         flex-direction: column;
         .right-contact {
             margin-left: 0;
@@ -27,12 +27,9 @@
 }
 
 @media screen and (max-width: 1260px) {
-    .skills .skill .progress-skills {
-        grid-template-columns: 1fr;
-    }
 
     .portfolio .project-list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr) !important;
         padding-right: 3rem;
     }
 }
@@ -64,8 +61,12 @@
 
     }
 
+    .skills .skill .progress-skills {
+        grid-template-columns: 1fr !important;
+    }
+
         
-    .portfolio .project-list {
+    #portfolio .project-list {
         grid-template-columns: 1fr !important;
         padding-bottom: 6rem;
         padding-right: 3rem;
