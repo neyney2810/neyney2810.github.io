@@ -1304,6 +1304,9 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  .section.header {
+    padding: 0 !important;
+  }
   .about-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
