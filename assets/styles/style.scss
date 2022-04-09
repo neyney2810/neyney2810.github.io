@@ -688,6 +688,10 @@ section {
 .btn-con {
     display: flex;
     align-self: flex-start;
+    
+    .main-btn {
+        margin-right: 1rem;
+    }
 }
 
 .main-btn {

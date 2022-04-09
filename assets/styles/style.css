@@ -962,6 +962,10 @@ section {
       align-self: flex-start;
 }
 
+.btn-con .main-btn {
+  margin-right: 1rem;
+}
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
